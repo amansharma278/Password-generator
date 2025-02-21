@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genrator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main_card">
+        <div class="header center" >
+            <h2>Password Genrator</h2>
+        </div>
+
+        <div class="inputCopy center">
+            <input type="text" name="" id="" placeholder="Password">
+            <button id="copy">Copy</button>
+        </div>
+
+        <div class="lengthInput">
+            <label for="">Length</label> <input type="number" value="10" min="5" max="20" step="1">
+        </div>
+
+        <!-- <div class="setting">
+            <label for="">UpperCase</label> <input type="checkbox" id="uperCase">
+        </div> -->
+        <div class="setting"><label for="">UpperCase</label> <input type="checkbox" id="uperCase" checked></div>
+        <div class="setting"><label for="">LoweCase</label> <input type="checkbox" id="lowerCase" checked></div>
+        <div class="setting"><label for="">Symbols</label> <input type="checkbox" id="symbols" checked></div>
+        <div class="setting"><label for="">Numbers</label> <input type="checkbox" id="number" checked></div>
+        
+        <div class="btn center">
+            <button id="password">Generate Password</button>
+        </div>
+    </div>
+</body>
+</html>
